@@ -14,4 +14,4 @@ WORKDIR /home/app
 RUN pip install -r requirements.txt
 
 # Instruction to run the code
-CMD ["python", "code.py"]
+CMD python build_data.py && python code.py
