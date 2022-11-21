@@ -15,7 +15,7 @@ env:
 jobs:
   # We are interested in a single job: build and push an image
   build-and-push-image:
-    runs-on: python-latest
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
