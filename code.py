@@ -1,0 +1,1 @@
+print("The docker image works!")
